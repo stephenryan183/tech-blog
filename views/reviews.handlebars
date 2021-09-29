@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="row">
+        <div class="col-8 text-center">
+            <h1>{{videogame.videogame_name}}</h1>
+            <ul class="reviews-list">
+                {{#each videogame.reviews as |review|}}
+                <li id={{review.id}} data-user-id={{review.user.id}}>{{> reviewcard}}</li>
+                {{/each}}
+            </ul>
+        </div>
+        <div class="col-3 text-center">
+            <h2>Add a review</h2>
+            <form class="form new-review-form">
+                <div class="form-group">
+                    <label for="review-desc"></label>
+                    <textarea class="form-input" id="review-desc" name="review-desc"></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Add</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

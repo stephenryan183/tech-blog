@@ -1,0 +1,98 @@
+:root{
+    --darkred: #8D0304;
+    --lightred: #FF2828;
+    --offwhite: #f9f8f3;
+}
+
+body{
+    background-color: var(--offwhite);
+}
+
+header{
+    color: var(--offwhite);
+}
+
+h1{
+   font-weight: 900px; 
+}
+
+ul {
+   list-style:none;
+   font-size: 20px;
+   
+}
+
+a{
+    text-decoration: none;
+    color: var(--offwhite);
+}
+
+a:hover{
+    color: var(--lightred);
+}
+
+
+.navitem{
+    width: 100%;
+    display: flex; 
+    justify-content: space-around; 
+    color: var(--offwhite);
+}
+
+
+.darkredtext{
+    color: var(--darkred); 
+}
+
+.reviews-list{
+    color: var(--darkred);
+}
+
+.videogames-list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.review-card{
+    border: solid 2px var(--darkred);
+    border-radius: 9px;
+}
+
+.bg-darkred{
+    background-color: var(--darkred);
+}
+
+.box {
+    display: flex;
+    flex-wrap: flex;
+    
+}
+
+.gameli{
+    display: flex;
+  justify-content: space-between;
+    background-color: var(--darkred);
+    border: solid 2px var(--lightred);
+    padding: 2px;
+    margin: 2%;
+    border-radius: 9px;
+    justify-content: center;
+}
+.game-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bgimg {
+    width: 40%;
+}
+
+
+@media screen and (max-width:768px) {
+    nav{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+ }

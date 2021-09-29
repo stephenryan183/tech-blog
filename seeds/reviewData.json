@@ -1,0 +1,38 @@
+[
+    {
+      "videogame_id": 1,
+      "review_description": "it was good!",
+      "user_id": 3
+    },
+    {
+      "videogame_id": 1,
+      "review_description": "it was not good!",
+      "user_id": 1
+    },
+    {
+      "videogame_id": 2,
+      "review_description": "it was extra very good!",
+      "user_id": 1
+    },
+    {
+      "videogame_id": 3,
+      "review_description": "it sucked!",
+      "user_id": 2
+    },
+    {
+      "videogame_id": 4,
+      "review_description": "I loved it! It inspired my love of classic rock",
+      "user_id": 4
+    },
+    {
+      "videogame_id": 5,
+      "review_description": "This is a great way to stay active!",
+      "user_id": 4
+    },
+    {
+      "videogame_id": 3,
+      "review_description": "I like wii bowling the most of all of the games",
+      "user_id": 2
+    }
+  ]
+  
